@@ -24,6 +24,8 @@
                     <li>@Html.ActionLink("首頁", "Index", "Home")</li>
                     <li>@Html.ActionLink("關於", "About", "Home")</li>
                     <li>@Html.ActionLink("連絡人", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("計算星期", "Week", "Date")</li>
+                    <li>@Html.ActionLink("註冊", "SignUp", "User")</li>
                 </ul>
             </div>
         </div>
@@ -32,7 +34,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 應用程式</p>
+            <p>&copy; @DateTime.Now.Date - 我的 ASP.NET 應用程式</p>
         </footer>
     </div>
 
